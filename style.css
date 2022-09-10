@@ -216,6 +216,10 @@ input {
     background-repeat: no-repeat;
 
 }
+.grid-item:hover{
+    filter: 2;
+    transform: scale(1.15);
+}
 
 
 .grid-conteiner {
