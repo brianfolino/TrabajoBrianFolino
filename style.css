@@ -254,7 +254,17 @@ button:hover{
 .imagenboos{
     height: 545px;
 }
-
+.form-select{
+   width: 250px;
+  margin: 40px;
+}
+.card{
+    margin: 100px;  
+    background-color: rgb(164, 142, 142);
+}
+.card-body{
+    background-color: rgb(207, 175, 175);
+}
 
 @media (max-width:750px) {
     .parrafo__principal {
