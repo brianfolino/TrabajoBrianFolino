@@ -5,25 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ofertas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header class="cabecera"> 
-        <a> <img src="../img/logo 3.png" height="125px"></a>
-        <nav>
-             <ul class="cabecera__links"> 
-                <li><A href="../index.html" class="nav-link">INICIO </A></li>
-                <li><a href="./hombre.html" class="nav-link">HOMBRE </a></li>
-                <li><A href="./mujer.html" class="nav-link">MUJER</A></li>
-                <li><A href="" class="nav-link"> MARCAS </A> </li>
-                <li><A href="./contacto.html" class="nav-link"> CONTACTO</A></li>
-               
-                <li>  <label for="Buscar"></label>
-                    <input  id="Buscar" TYPE="text" placeholder="Buscar"></li>
-            </ul> 
-        </nav>
-    </header>
+<body class="container-fluid">
+    <section class="row">
+
+        <header class="cabecera">
+          <a> <img src="../img/logo 3.png" height="125px"></a>
+          <nav>
+            <ul class="cabecera__links">
+              <li><A href="../index.html" class="nav-link">INICIO </A></li>
+              <li><a href="./hombre.html" class="nav-link">HOMBRE </a></li>
+              <li><A href="./mujer.html" class="nav-link">MUJER</A></li>
+              <li><A href="./marcas.html" class="nav-link"> MARCAS </A> </li>
+              <li><A href="./contacto.html" class="nav-link"> CONTACTO</A></li>
+    
+              <li> <label for="Buscar"></label>
+                <input id="Buscar" TYPE="text" placeholder="Buscar">
+              </li>
+            </ul>
+            <p>Envios GRATIS en compras superiores a $20.000</p>
+          </nav>
+        </header>
+      </section>
     <div class="titulo__marcas"><p>Encontra las mejores marcas!</p></div>
   <div class="grid-conteiner">
     <div class="grid-item"> <img src="../img/img/nike.jpg" alt=""></div> 
@@ -39,6 +46,7 @@
   </div>
   
    <hr>
+   <section class="row">
     <footer class="pie-pagina" >
         <div class="grupo-1" >
             <h2>Redes sociales</h2>
@@ -55,5 +63,9 @@
             </p>
         </div>
         </footer>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 </html>

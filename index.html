@@ -2,43 +2,44 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap" rel="stylesheet">
-    <title>WEB</title>
-    <link rel="stylesheet" href="./style.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap" rel="stylesheet">
+  <title>WEB</title>
+  <link rel="stylesheet" href="./style.css" />
 </head>
 
-<body>
-    <!-- encabezado -->
-   <div class="container-fluid">
-    <header>
-        <header class="cabecera">
-            <nav>
-                <a> <img src="./img/logo 3.png" height="125px"></a> </img>
-                <ul class="cabecera__links">
-                    <li><A href="" class="nav-link">INICIO </A></li>
-                    <li><a href="./page/hombre.html" class="nav-link">HOMBRE </a></li>
-                    <li><A href="./page/mujer.html" class="nav-link">MUJER</A></li>
-                    <li><A href="./page/marcas.html" class="nav-link"> MARCAS </A> </li>
-                    <li><A href="./page/contacto.html" class="nav-link"> CONTACTO</A></li>
-    
-                    <li> <label for="Buscar"></label>
-                        <input id="Buscar" TYPE="text" placeholder="Buscar">
-                        <button type="button" class="btn btn-secondary">Buscar</button>
-                    </li>
-                </ul>
-                <p>Envios GRATIS en compras superiores a $20.000</p>
-            </nav>
- </header>
- <div class="col-sm-12 my-4">
-<h1 class="text-center display-3 mt-4"> Encontra la mejor indumentaria</h1>
-</div>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+<body class="container-fluid">
+  <!-- encabezado -->
+  <section class="row">
+    <header class="cabecera">
+      <a> <img src="../img/logo 3.png" height="125px"></a>
+      <nav>
+        <ul class="cabecera__links">
+          <li><A href="" class="nav-link">INICIO </A></li>
+          <li><a href="./page/hombre.html" class="nav-link">HOMBRE </a></li>
+          <li><A href="./page/mujer.html" class="nav-link">MUJER</A></li>
+          <li><A href="./page/marcas.html" class="nav-link"> MARCAS </A> </li>
+          <li><A href="./page/contacto.html" class="nav-link"> CONTACTO</A></li>
+
+          <li> <label for="Buscar"></label>
+            <input id="Buscar" TYPE="text" placeholder="Buscar">
+          </li>
+        </ul>
+        <p>Envios GRATIS en compras superiores a $20.000</p>
+      </nav>
+    </header>
+  </section>
+  <div class="col-sm-12 my-4">
+    <h1 class="text-center display-3 mt-4"> Encontra la mejor indumentaria</h1>
+  </div>
+  <!-- Carousel -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="./img/inicio.jpg" class="d-block w-100" alt="">
@@ -59,40 +60,45 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-<div class="row">
-  <div class="col-sm-6 my-4">
-    <P class="pblanco">Accesorios</P>
-<img class="imagenboos img-fluid" src="./img/gorrajordan.jpg" alt="">
-  </div>
-  <div class="col-sm-6 my-4">
-    <P class="pblanco">Indumentaria</P>
-    <img class="img-fluid" src="./img/indumentaria.jpg" alt="">
-  </div>
+  <!-- Contenido Principal -->
+  <div class="row">
+    <div class="col-sm-6 my-4">
+      <P class="pblanco">Accesorios</P>
+      <img class="imagenboos img-fluid" src="./img/gorrajordan.jpg" alt="">
     </div>
-    <div class="col-sm-12">
-      <P class="pblanco">Calzado</P>
-  <img class="col-sm-12 img-fluid my-4" src="./img/calzado.jpg" alt="">
+    <div class="col-sm-6 my-4">
+      <P class="pblanco">Indumentaria</P>
+      <img class="img-fluid" src="./img/indumentaria.jpg" alt="">
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </div>
-  <footer class="pie-pagina">
-    <div class="grupo-1">
+  <div class="col-sm-12">
+    <P class="pblanco">Calzado</P>
+    <img class="col-sm-12 img-fluid my-4" src="./img/calzado.jpg" alt="">
+  </div>
+  </div>
+  <section class="row">
+    <footer class="pie-pagina">
+      <div class="grupo-1">
         <h2>Redes sociales</h2>
         <a href="https://www.instagram.com/?hl=es-la">
-            <img src="./img/logoinstagram.jpg" width="80px" alt="Logo de Instagram">
+          <img src="./img/logoinstagram.jpg" width="80px" alt="Logo de Instagram">
         </a>
         <a href="https://www.twitter.com">
-            <img src="./img/twlogo.jpg" width="55px" alt="Logo de Twitter">
+          <img src="./img/twlogo.jpg" width="55px" alt="Logo de Twitter">
         </a>
-    </div>
-    <div class="pie-nosotros">
+      </div>
+      <div class="pie-nosotros">
         <h2>Sobre nosotros</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatem quam nam tempora totam! Ipsam eos
-            voluptatem autem ad, unde vel voluptatum corporis dolorum.
+          voluptatem autem ad, unde vel voluptatum corporis dolorum.
         </p>
-    </div>
+      </div>
 
-</footer>
+    </footer>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+  crossorigin="anonymous"></script>
 </body>
 
 </html>
