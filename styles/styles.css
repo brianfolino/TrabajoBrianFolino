@@ -117,8 +117,8 @@ form button:hover {
 
 footer {
   width: 100%;
-  color: rgb(241, 228, 228);
-  background-color: rgb(40, 41, 42);
+  color: rgb(255, 255, 255);
+  background-color: rgb(73, 39, 39);
   text-align: center;
   bottom: 0%;
 }
