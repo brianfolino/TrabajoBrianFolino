@@ -1,0 +1,40 @@
+@media (max-width:750px) {
+   
+    
+    .cabecera a{
+        padding: 0%;
+        .logo{
+            width: 125px;
+            margin-left: 140px;
+        }
+        
+    }
+    .cabecera__links li {
+        display: contents;
+       
+    }
+    .titulo__marcas {
+        width: 100%;
+        text-align: center;
+        margin: 5px;
+        font-size: 30px;
+    }
+
+    .titulo_contacto {
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    form {
+        background-color: rgb(133, 43, 43);
+        width: 100%;
+        margin: auto;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top: 20px;
+
+    }
+
+}
