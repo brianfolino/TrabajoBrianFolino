@@ -1,0 +1,184 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+  list-style: none;
+}
+
+body {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.cabecera {
+  height: 30%;
+  width: 100%;
+  background-color: rgb(109, 9, 9);
+}
+.cabecera .logo {
+  width: 125px;
+}
+.cabecera .cabecera__links {
+  background-color: rgb(40, 41, 42);
+  padding: 1%;
+  text-align: center;
+}
+.cabecera li {
+  display: inline-block;
+  margin-left: 50px;
+  color: #f6f0f0;
+}
+.cabecera a {
+  padding: 45%;
+  text-decoration: none;
+}
+.cabecera p {
+  background-color: rgb(223, 101, 101);
+  text-align: center;
+  font-size: 25px;
+}
+.cabecera input {
+  padding: 5px;
+  width: 180px;
+}
+
+.titulo_contacto {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin: 0px;
+  font-size: 20px;
+}
+
+form {
+  background-color: rgb(153, 65, 65);
+  width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+form input {
+  height: 20px;
+  width: 200px;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+form button {
+  border: none;
+  padding: 20px;
+  background-color: rgb(255, 253, 253);
+  cursor: pointer;
+  border-radius: 5px;
+  border-bottom: 3px solid black;
+  transition: all 0.8s;
+}
+form button:hover {
+  background-color: rgb(5, 5, 5);
+  border-bottom: 6px solid rgb(250, 250, 250);
+  color: #f6f0f0;
+}
+
+.titulo__marcas {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin: 0px;
+  font-size: 40px;
+}
+
+.grid-conteiner {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 30px;
+  padding: 20px;
+}
+.grid-conteiner .grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background-color: rgb(226, 216, 216);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.grid-conteiner .grid-item img {
+  width: 200px;
+}
+.grid-conteiner .grid-item img:hover {
+  filter: 2;
+  transform: scale(1.15);
+}
+
+footer {
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(73, 39, 39);
+  text-align: center;
+  bottom: 0%;
+}
+
+.d-block {
+  height: 600px;
+  margin: 0%;
+}
+
+.pblanco {
+  background-color: #f6f0f0;
+  text-align: center;
+}
+
+.imagenboos {
+  height: 545px;
+}
+
+.form-select {
+  width: 250px;
+  margin: 40px;
+}
+
+.card {
+  margin: 100px;
+  background-color: rgb(164, 142, 142);
+}
+.card .card-body {
+  background-color: rgb(207, 175, 175);
+}
+
+@media (max-width: 750px) {
+  .cabecera a {
+    padding: 0%;
+  }
+  .cabecera a .logo {
+    width: 125px;
+    margin-left: 140px;
+  }
+  .cabecera__links li {
+    display: contents;
+  }
+  .titulo__marcas {
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    font-size: 30px;
+  }
+  .titulo_contacto {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    font-size: 20px;
+  }
+  form {
+    background-color: rgb(133, 43, 43);
+    width: 100%;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=styles.css.map */
