@@ -74,6 +74,14 @@ form button:hover {
   color: #f6f0f0;
 }
 
+.titulo__marcas {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin: 0px;
+  font-size: 50px;
+}
+
 .grid-conteiner {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -174,7 +182,7 @@ footer {
   padding: 10px;
 }
 
-.titulo_contacto, .titulo__marcas, .titulohombre, .titulomujer {
+.titulo_contacto, .titulohombre, .titulomujer {
   width: 100%;
   text-align: center;
   font-weight: bold;

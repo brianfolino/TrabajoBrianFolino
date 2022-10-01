@@ -1,0 +1,7 @@
+@mixin titulos($font) {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+    font-size: $font;
+}

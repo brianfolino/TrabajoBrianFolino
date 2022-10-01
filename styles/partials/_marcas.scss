@@ -1,5 +1,5 @@
 .titulo__marcas {
-    @extend %titulodefault;
+    @include titulos($font:50px)
 }
 .grid-conteiner {
     display: grid;
