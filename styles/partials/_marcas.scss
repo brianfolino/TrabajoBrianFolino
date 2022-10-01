@@ -1,9 +1,5 @@
 .titulo__marcas {
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    margin: 0px;
-    font-size: 40px;
+    @extend %titulodefault;
 }
 .grid-conteiner {
     display: grid;
