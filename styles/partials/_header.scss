@@ -2,7 +2,7 @@
 
     height: 30%;
     width: 100%;
-    background-color: $color-header;
+    background-color: map-get($colores, color-header);
     .logo{
         width: 125px;
     }
