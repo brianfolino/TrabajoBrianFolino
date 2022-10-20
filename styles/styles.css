@@ -116,6 +116,7 @@ footer {
 }
 
 .d-block {
+  margin: 0%;
   -o-object-fit: cover;
      object-fit: cover;
 }
