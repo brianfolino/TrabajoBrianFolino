@@ -116,8 +116,8 @@ footer {
 }
 
 .d-block {
-  height: 600px;
-  margin: 0%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .pblanco {
