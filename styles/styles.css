@@ -11,6 +11,39 @@ body {
   height: 100%;
 }
 
+@media (max-width: 800px) {
+  .Buscar {
+    display: none;
+  }
+  .cabecera a {
+    padding: 0%;
+    margin: 0%;
+  }
+  .cabecera a .cabecera__links li a {
+    padding: 0%;
+    margin-left: 0%;
+  }
+  .cabecera a .titulo__marcas {
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    font-size: 30px;
+  }
+  .cabecera a .titulo_contacto {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    font-size: 20px;
+  }
+  .cabecera a form {
+    background-color: rgb(133, 43, 43);
+    width: 100%;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
+}
 .cabecera {
   height: 30%;
   width: 100%;
@@ -26,11 +59,12 @@ body {
 }
 .cabecera li {
   display: inline-block;
+  height: 30px;
   margin-left: 50px;
-  color: #f6f0f0;
+  color: #fffefe;
+  float: none;
 }
 .cabecera a {
-  padding: 45%;
   text-decoration: none;
 }
 .cabecera p {
@@ -38,6 +72,11 @@ body {
   text-align: center;
   font-size: 25px;
   width: 100%;
+}
+.cabecera .logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .cabecera input {
   padding: 5px;
@@ -134,49 +173,25 @@ footer {
 
 .form-select {
   width: 250px;
-  margin: 40px;
+  background-color: rgb(211, 189, 189);
+}
+
+.filtros {
+  display: flex;
+  justify-content: space-around;
 }
 
 .card {
-  margin: 100px;
+  margin: 55px;
   background-color: rgb(164, 142, 142);
 }
 .card .card-body {
   background-color: rgb(207, 175, 175);
 }
-
-@media (max-width: 750px) {
-  .cabecera a {
-    padding: 0%;
-  }
-  .cabecera a .logo {
-    width: 125px;
-    margin-left: 140px;
-  }
-  .cabecera__links li {
-    display: contents;
-  }
-  .titulo__marcas {
-    width: 100%;
-    text-align: center;
-    margin: 5px;
-    font-size: 30px;
-  }
-  .titulo_contacto {
-    width: 100%;
-    text-align: center;
-    margin: 0px;
-    font-size: 20px;
-  }
-  form {
-    background-color: rgb(133, 43, 43);
-    width: 100%;
-    margin: auto;
-    padding: 10px 20px;
-    box-sizing: border-box;
-    margin-top: 20px;
-  }
+.card .btn {
+  background-color: #b93d3d;
 }
+
 .titulohombre {
   padding: 20px;
 }

@@ -13,12 +13,23 @@
 }
 .form-select{
    width: 250px;
-  margin: 40px;
+   background-color: rgb(211, 189, 189);
+}
+.filtros{
+    display: flex;
+    justify-content: space-around;
+    
+    
 }
 .card{
-    margin: 100px;  
+    margin: 55px; 
     background-color: rgb(164, 142, 142);
     .card-body{
         background-color: rgb(207, 175, 175);
     }
+        .btn{
+          background-color: #b93d3d;
+          
+        }
+    
 }

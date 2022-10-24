@@ -1,18 +1,20 @@
-@media (max-width:750px) {
-   
-    
-    .cabecera a{
-        padding: 0%;
-        .logo{
-            width: 125px;
-            margin-left: 140px;
+@media (max-width:800px){ 
+    .Buscar {
+        display: none;
         }
-        
-    }
+    .cabecera a {
+        padding: 0%;
+        margin: 0%;
+
     .cabecera__links li {
-        display: contents;
-       
-    }
+        
+        a {    
+            padding: 0%;
+            margin-left: 0%;
+          
+        }
+         }
+
     .titulo__marcas {
         width: 100%;
         text-align: center;
@@ -34,7 +36,6 @@
         padding: 10px 20px;
         box-sizing: border-box;
         margin-top: 20px;
-
-    }
-
+ }
+}
 }
